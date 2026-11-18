@@ -56,6 +56,7 @@ public:
   // and overloaded assignment operator, if appropriate. If these operations
   // will work correctly without defining these, you should omit them. A user
   // of the class must be able to create, copy, assign, and destroy Lists.
+  // Travis note: add these ctor, dtor, c ctor for the list class. Note the word default.
 
 private:
   //a private type
@@ -79,7 +80,7 @@ public:
     //OVERVIEW: Iterator interface to List
 
     // Add a default constructor here. The default constructor must set both
-    // pointer members to null pointers.
+    // pointer members to null pointers. Travis Note: def ctor for iterator
 
 
 
@@ -196,7 +197,7 @@ public:
 // Add your member function implementations below or in the class above
 // (your choice). Do not change the public interface of List, although you
 // may add the Big Three if needed.  Do add the public member functions for
-// Iterator.
+// Iterator. 
 
 
 #endif // Do not remove this. Write all your code above this line.
